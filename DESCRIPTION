@@ -3,17 +3,17 @@ Version: 0.1
 Date: 2017-08-12
 Title: R package by collaboration
 Authors@R: c(person("Sung Gon", "Yi", role = c("aut", "cre"), email = "skonmeme@gmail.com"),
-             person("Sangjo", "Han", role = c("aut", "cre"), email = "sangjo.han@gmail.com"), 
-             person("Taegyun", "Yoon", role = c("aut", "cre"), email = "bacillus@sk.com"),
-	     person("Junghyun", "Namkung", role = c("aut", "cre"), email = "jh.namkung@gmail.com"),
-	     person("Yonghwan", "Choi", role = c("aut", "cre"), email = "choiyh1976@gmail.com"),
-	     person("Jungsun", "Park", role = c("aut", "cre"), email = "pj0518@gmail.com"))
+             person("Sangjo", "Han", role = c("aut"), email = "sangjo.han@gmail.com"), 
+             person("Taegyun", "Yoon", role = c("aut"), email = "bacillus@sk.com"),
+	     person("Junghyun", "Namkung", role = c("aut"), email = "jh.namkung@gmail.com"),
+	     person("Yonghwan", "Choi", role = c("aut"), email = "choiyh1976@gmail.com"),
+	     person("Jungsun", "Park", role = c("aut"), email = "pj0518@gmail.com"))
 Author: Sung Gon Yi [aut, cre],
-  Sangjo Han [aut, cre],
-  Taegyun [aut, cre],
-  Jeonghyun Namkung [aut, cre],
-  Yonghwan Choi [aut, cre],
-  Jungsun Park aut, cre[]
+  Sangjo Han [aut],
+  Taegyun [aut],
+  Jeonghyun Namkung [aut],
+  Yonghwan Choi [aut],
+  Jungsun Park [aut]
 Maintainer: Sung Gon Yi <skonmeme@gmail.com>
 Depends: R (>= 3.1.0)
 Suggests: MASS
