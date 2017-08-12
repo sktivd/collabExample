@@ -1,5 +1,13 @@
+language: r
+sudo: false
+cache: packages
+r:
+  - oldrel
+  - release
+  - devel
+
 r_github_packages:
   - jimhester/covr
 
 after_success:
-  - Rscript -e 'covr::codecov()'
+  - test $TRAVIS_R_VERSION_STRING = "release" && R CMD INSTALL $PKG_TARBALL && source shim_package.sh && Rscript -e 'covr::codecov()'
