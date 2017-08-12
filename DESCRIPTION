@@ -1,0 +1,25 @@
+Package: collap_example
+Version: 0.1
+Date: 2017-08-12
+Title: R package by collaboration
+Authors@R: c(person("Sung Gon Yi", "Developer", role = c("aut", "cre"),
+                     email = "skonmeme@gmail.com"),
+             person("Sangjo Han", "Project Manager", role = "aut"),
+             person("Taegyun Yoon", "Developer", role = "ctb",
+                     email = "A.User@whereever.net"),
+	     person("Jeonghyun Namkung", "Developer", role = "", email = ""),
+	     person("Yonghwan Choi", "", role = "", email = ""),
+	     person("Jungsun Park", "", role = "", email = ""))
+Author: Sung Gon Yi [aut, cre],
+  Sangjo Han [aut],
+  Taegyun [ctb],
+  Jeonghyun Namkung [],
+  Yonghwan Choi [],
+  Jungsun Park []
+Maintainer: Sung Gon Yi <skonmeme@gmail.com>
+Depends: R (>= 3.1.0)
+Suggests: MASS
+Description: An example package for collaboartion experiance.
+License: BSD-2-clause
+URL: https://github.com/sktivd/collab_example
+BugReports: https://github.com/sktivd/collab_example/issues
