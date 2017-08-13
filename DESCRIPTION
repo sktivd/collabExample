@@ -21,3 +21,4 @@ Description: An example package for collaboartion experiance.
 License: BSD_2_clause + file LICENSE
 URL: https://github.com/sktivd/collab_example
 BugReports: https://github.com/sktivd/collab_example/issues
+RoxygenNote: 6.0.1
