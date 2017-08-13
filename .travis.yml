@@ -2,6 +2,7 @@ language: r
 sudo: false
 env: _R_CHECK_CRAN_INCOMING_=FALSE
 cache: packages
+
 r:
   - release
   - devel
@@ -10,4 +11,4 @@ r_github_packages:
   - jimhester/covr
 
 after_success:
-  - test $TRAVIS_R_VERSION_STRING = "release" && Rscript -e 'covr::codecov()'
+  - test $TRAVIS_R_VERSION_STRING = 'release' && Rscript -e 'covr::codecov()'
