@@ -1,0 +1,5 @@
+.travis.yml
+users
+CHANGELOG.md
+^.*\.Rproj$
+^\.Rproj\.user$

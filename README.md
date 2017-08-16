@@ -1,5 +1,8 @@
 # Collaboration example
 
+[![Build Status](https://travis-ci.org/sktivd/collabExample.svg?branch=master)](https://travis-ci.org/sktivd/collabExample)
+[![codecov](https://codecov.io/gh/sktivd/collabExample/branch/master/graph/badge.svg)](https://codecov.io/gh/sktivd/collabExample)
+
 각자가 마구마구 만들어서 [Git](http://git-scm.com)의 기능을 습득해보자고 하는 연습 repository입니다.
 각각의 미션은 대충 [issue](https://github.com/sktivd/collab_example/issues)에 올려두겠습니다.
 
