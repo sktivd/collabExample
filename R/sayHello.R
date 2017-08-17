@@ -8,3 +8,7 @@
 sayHello <- function(whom) {
 	sprintf("Hello, %s\n", whom)
 }
+sayGoodnight <-function(whom) {
+	sprintf("Good nigth, %s\n", whom)
+}
+
