@@ -1,14 +1,11 @@
-#' Say Hello
+#' Say Hello  
 #'
-#' @param whom name to say hello
+#' @param whom name to say Hello
 #' @return the say hello string to \code{whom}
 #' @examples
 #' sayHello('skon')
 #' @export
-sayHello <- function(whom) {
+sayHello <-function(whom) {
 	sprintf("Hello, %s\n", whom)
-}
-sayGoodnight <-function(whom) {
-	sprintf("Good nigth, %s\n", whom)
 }
 
