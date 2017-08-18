@@ -5,7 +5,7 @@
 #' @examples
 #' sayHello('skon')
 #' @export
-sayHello <-function(whom) {
+sayHello<-function(whom) {
 	sprintf("Hello, %s\n", whom)
 }
 

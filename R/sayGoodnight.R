@@ -5,7 +5,7 @@
 #' @examples
 #' sayGoodnight('skon')
 #' @export
-sayGoodnight <-function(whom) {
-	sprintf("Good nigth, %s\n", whom)
+sayGoodnight<-function(whom) {
+	sprintf("Good night, %s\n", whom)
 }
 
