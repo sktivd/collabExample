@@ -5,6 +5,6 @@
 #' @examples
 #' doSomething('Basketball')
 #' @export
-doSomething <- function(activity) {
+doSomething<-function(activity) {
 	sprintf("I am now doing some, %s\n", activity)
 }
