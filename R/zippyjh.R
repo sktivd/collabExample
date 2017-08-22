@@ -5,6 +5,6 @@
 #' @examples
 #' sayGoodLuck('zippyjh')
 #' @export
-sayGoodLuck <- function(whom) {
+sayGoodLuck<-function(whom) {
 	sprintf("Good Luck, %s\n", whom)
 }
