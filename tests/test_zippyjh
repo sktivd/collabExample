@@ -1,0 +1,7 @@
+context("functions")
+
+source("~/collabExample/R/zippyjh.R")
+
+test_that("zippyjh prints Good Luck for someone", {
+expect_output(zippyjh("Tom"), "Good Luck Tom")
+})
