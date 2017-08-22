@@ -6,5 +6,5 @@
 #' doSomething('Basketball')
 #' @export
 doSomething<-function(activity) {
-	sprintf("I am now doing some, %s\n", activity)
+	sprintf("I am now doing some %s", activity)
 }

@@ -6,6 +6,6 @@
 #' eatSomething('Noodle')
 #' @export
 eatSomething<-function(food) {
-	sprintf("I am now eating some, %s\n", food)
+	sprintf("I am now eating some %s", food)
 }
 
