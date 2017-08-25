@@ -8,15 +8,12 @@ sayHelloRepeat(iter)
 }
 \arguments{
 \item{iter}{num of say hello}
-
-\item{whom}{name to say hello}
 }
 \value{
-the say hello string to \code{whom}
-Say Hello with repeatition
+the say string with iter nub
 }
 \description{
-Say Hello
+Say Hello with repeatition
 }
 \examples{
 sayHelloRepeat(3)
