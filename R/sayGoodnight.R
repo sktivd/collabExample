@@ -6,6 +6,6 @@
 #' sayGoodnight('skon')
 #' @export
 sayGoodnight<-function(whom) {
-	sprintf("Good night, %s\n", whom)
+	sprintf("Good night, %s", whom)
 }
 
