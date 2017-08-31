@@ -1,0 +1,18 @@
+coverage:
+  precision: 2
+  round: down
+  range: 50...70
+  status:
+    project:
+      default:
+        target: 70%
+    patch:
+      default:
+        target: 70%
+    changes:
+      default:
+        target: 70%
+
+comment:
+  layout: header, changes, diff, sunburst
+  behavior: default  # update if exists else create new
