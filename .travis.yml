@@ -4,6 +4,7 @@ env: _R_CHECK_CRAN_INCOMING_=FALSE
 cache: packages
 
 r:
+  - oldrel
   - release
   - devel
 
