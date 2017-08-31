@@ -16,9 +16,10 @@ Author: Sung Gon Yi [aut, cre],
   Jungsun Park [aut]
 Maintainer: Sung Gon Yi <skonmeme@gmail.com>
 Depends: R (>= 3.1.0)
-Suggests: MASS
 Description: An example package for collaboartion experiance.
 License: BSD_2_clause + file LICENSE
 URL: https://github.com/sktivd/collab_example
 BugReports: https://github.com/sktivd/collab_example/issues
+Suggests: testthat
+LazyData: true
 RoxygenNote: 6.0.1
