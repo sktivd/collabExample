@@ -1,4 +1,5 @@
 .travis.yml
+codecov.yml
 users
 CHANGELOG.md
 ^.*\.Rproj$
