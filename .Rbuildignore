@@ -4,3 +4,9 @@ users
 CHANGELOG.md
 ^.*\.Rproj$
 ^\.Rproj\.user$
+.git
+.gitmodules
+.travis.yml
+data/.git
+data/.gitattributes
+data/.gitignore
